@@ -1,0 +1,77 @@
+# Context OS Ontology
+# Defines how concepts relate to each other
+
+relationships:
+  # Problem-Solution
+  addresses:
+    description: A solution or response that addresses a problem or objection
+    example: "pricing-response addresses pricing-objection"
+    inverse: addressed_by
+
+  # Competitive
+  competes_with:
+    description: Direct competitive relationship
+    example: "our-product competes_with competitor-x"
+    inverse: competes_with
+
+  differentiates_from:
+    description: How we differ from alternatives
+    example: "feature-x differentiates_from competitor-approach"
+
+  # Dependencies
+  requires:
+    description: One concept requires another
+    example: "advanced-feature requires base-setup"
+    inverse: enables
+
+  supports:
+    description: Evidence or data supporting a claim
+    example: "case-study supports value-proposition"
+    inverse: supported_by
+
+  # Hierarchy
+  part_of:
+    description: Component relationship
+    example: "api-module part_of product-architecture"
+    inverse: contains
+
+  # Temporal
+  preceded_by:
+    description: Sequential relationship
+    example: "negotiation preceded_by qualification"
+    inverse: followed_by
+
+  # Attribution
+  learned_from:
+    description: Source of insight
+    example: "pricing-insight learned_from customer-call"
+
+  mentioned_in:
+    description: Where a concept appears
+    example: "competitor-x mentioned_in acme-call"
+
+# Entity types
+entities:
+  concept:
+    description: Abstract idea or strategy
+    example: value-based-pricing
+
+  person:
+    description: Contact or stakeholder
+    example: john-smith-acme
+
+  company:
+    description: Customer or prospect
+    example: acme-corp
+
+  product:
+    description: Our product or competitor product
+    example: competitor-x-platform
+
+  event:
+    description: Meeting, call, or milestone
+    example: acme-discovery-call-2025-01
+
+  artifact:
+    description: Document, deck, or deliverable
+    example: pricing-proposal-template

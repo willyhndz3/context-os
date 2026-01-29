@@ -1,0 +1,53 @@
+# Context OS Taxonomy
+# Blessed tags for categorizing knowledge
+
+gtm:
+  - discovery
+  - qualification
+  - demo
+  - negotiation
+  - closing
+  - objection
+  - pricing
+  - competitor
+  - positioning
+  - messaging
+
+product:
+  - feature
+  - roadmap
+  - integration
+  - technical
+  - architecture
+  - api
+  - security
+
+research:
+  - customer-insight
+  - market-trend
+  - competitor-intel
+  - win-loss
+  - churn-analysis
+
+content:
+  - case-study
+  - testimonial
+  - documentation
+  - training
+
+internal:
+  - process
+  - playbook
+  - template
+  - meeting-notes
+
+status:
+  - draft
+  - reviewed
+  - approved
+  - archived
+
+priority:
+  - high
+  - medium
+  - low
