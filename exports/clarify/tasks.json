@@ -1,0 +1,992 @@
+[
+  {
+    "_id": "0c74d552-5417-4d69-97b2-6d6c356d96d2",
+    "title": "Receive example research steps and desired data points from Matt",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-17",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "843dd0fb-b82d-4069-8819-8ad86cc31db9",
+    "_created_at": "2026-01-12T13:47:12Z"
+  },
+  {
+    "_id": "ce0bf970-5942-4c8b-8737-120d1b7058f4",
+    "title": "Refine outbound automation workflow for Texas utilities",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-16",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "843dd0fb-b82d-4069-8819-8ad86cc31db9",
+    "_created_at": "2026-01-12T13:47:08Z"
+  },
+  {
+    "_id": "883b64c1-3612-481f-8a21-4476fbf6e56e",
+    "title": "Test outbound campaign workflow with minimum batch size",
+    "status": "To Do",
+    "priority": "Medium",
+    "due_date": "2026-02-12",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-12T11:36:48Z"
+  },
+  {
+    "_id": "511000b1-75b3-4464-8e8b-bc876270e6a0",
+    "title": "Build and implement fit score model for Esmart Systems outbound campaigns",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-19",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-12T11:36:48Z"
+  },
+  {
+    "_id": "dc674006-55df-4618-ad43-d6a39b18a2b2",
+    "title": "Refine prompts and build research/messaging agents for outbound workflow",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-13",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-08T13:02:17Z"
+  },
+  {
+    "_id": "3add5188-d585-4b65-8d77-e9f221822d2b",
+    "title": "Update and send contract for signature",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-08",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-08T13:02:17Z"
+  },
+  {
+    "_id": "338d0b42-d752-49ab-94c3-5061537c8ca8",
+    "title": "Contact Chris at Flagler Health for reference approval",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-12",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-08T09:24:15Z"
+  },
+  {
+    "_id": "0d488b89-5a82-4d38-b874-dd4115e3b98c",
+    "title": "Set up and explore Attio expert access and developer environment",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-15",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-08T09:24:15Z"
+  },
+  {
+    "_id": "c7986576-5a2e-4df7-b86c-766c0e447306",
+    "title": "Enhance signals table with attrition indicators",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-14",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-07T12:26:32Z"
+  },
+  {
+    "_id": "386f8f34-3dd5-45e7-a59d-fddecb4f219a",
+    "title": "Document and share methodology for POC enrichment workflow",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-09",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-07T12:26:32Z"
+  },
+  {
+    "_id": "fcfc43e9-e162-45cc-afe9-fefb46f514b8",
+    "title": "Support Attio collaboration approval for Clay integration",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-09",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2026-01-06T13:09:01Z"
+  },
+  {
+    "_id": "540a198b-efed-4c8b-a8c9-ba9db7ba7579",
+    "title": "Set up RSS feeds for automated healthcare signal detection",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-14",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-30T12:40:44Z"
+  },
+  {
+    "_id": "fffb632a-b27d-420e-a33b-787728a188d4",
+    "title": "Test and refine HTML email formatting in Clay for SalesLoft integration",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-07",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-30T12:40:44Z"
+  },
+  {
+    "_id": "ce5e5047-5e14-4dc9-bdc2-c46dc59c1739",
+    "title": "Schedule follow-up technical session with Dylan in the new year",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2026-01-12",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-22T14:34:15Z"
+  },
+  {
+    "_id": "333e031b-d73c-4cb4-8e21-e37d482795bb",
+    "title": "Share Clay-audio integration workflow details with Dylan and audio team",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-29",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-22T14:34:15Z"
+  },
+  {
+    "_id": "7076950d-1a11-405d-83b9-20a5dfd2aeb5",
+    "title": "Send recap email with scoped project outline to Michael",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-22",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-18T10:36:38Z"
+  },
+  {
+    "_id": "3eeea32b-3fdf-42a9-bbd3-bec29a8841d2",
+    "title": "Scope outbound sales infrastructure project for Snaps Ltd.",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2026-01-10",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-18T10:36:38Z"
+  },
+  {
+    "_id": "e55c9c90-07bc-4ec9-a753-47ce4ab543d8",
+    "title": "Consult Apollo community for best practices on integrating research outputs into sequences",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-18",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-17T14:28:08Z"
+  },
+  {
+    "_id": "db47808c-1bd9-4eff-a0a4-7feab4e5bf1e",
+    "title": "Send formal proposal for signature",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-17",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-17T14:28:08Z"
+  },
+  {
+    "_id": "c5815748-dba8-466a-b3d6-76be1c9fb235",
+    "title": "Document data cleanup process and provide summary to Chris",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-20",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-17T12:54:23Z"
+  },
+  {
+    "_id": "401d9181-7743-4c2e-814a-cbcd92294f38",
+    "title": "Review and clean up Clay tables for client projects",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-19",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-17T12:54:23Z"
+  },
+  {
+    "_id": "24267972-a882-4806-a229-3484c3d2eefe",
+    "title": "Develop outbound campaign plan and finalize HeyReach setup",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-17T12:28:01Z"
+  },
+  {
+    "_id": "cf3084db-5494-4f98-8ed1-430ebb9f70b1",
+    "title": "Refine and segment MSK clinic list for enrichment",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-20",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-17T12:28:01Z"
+  },
+  {
+    "_id": "c973a2bf-c07a-4c45-8b7d-8523152dd7fb",
+    "title": "Incorporate Matt's email and legislation prompt instructions",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-17",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-16T14:27:39Z"
+  },
+  {
+    "_id": "82f69ab4-5b61-4a75-97f3-c595dd007ca2",
+    "title": "Build MVP workflow for outbound automation in Apollo and Clay",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-16",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-16T14:27:39Z"
+  },
+  {
+    "_id": "d94383c4-f1e3-4cb6-92a2-a4588a794346",
+    "title": "Develop regulatory insights agent and integrate with enrichment workflow",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-17",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-15T13:56:55Z"
+  },
+  {
+    "_id": "39e4c018-8933-4a08-8700-67191b8ca85d",
+    "title": "Build test models in Apollo and Clay for outbound workflow",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-16",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-15T13:56:54Z"
+  },
+  {
+    "_id": "7b8b80e3-68c0-4c36-a15c-2ffb3135d3e3",
+    "title": "Coordinate testing and feedback for HeyReach Smartlead integration",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-18",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-15T08:12:27Z"
+  },
+  {
+    "_id": "0e011ce9-5074-4e39-a4f4-450decd1a7c8",
+    "title": "Review and present HeyReach proposal and invoice to Flagler Health decision makers",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-16",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-15T08:12:26Z"
+  },
+  {
+    "_id": "b29f8688-5ace-4167-bc63-15a0c3c48019",
+    "title": "Submit take-home assignment for Clay Solutions Engineer role",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-10",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-10T15:58:36Z"
+  },
+  {
+    "_id": "8c312c28-7d4b-4515-9852-91e6833b65bc",
+    "title": "Define and document sales compensation, territory attribution, and referral partner process",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-01-31",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:10:44Z"
+  },
+  {
+    "_id": "0c87562d-e4c0-4159-b1f5-7c2fc862c1b5",
+    "title": "Develop and distribute sales and product collateral (case studies, product guides, testimonials)",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-01-31",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:10:44Z"
+  },
+  {
+    "_id": "21609f6c-65ff-4976-8f33-666817f01e00",
+    "title": "Roll out HeyReach and Outreach for multi-channel outbound, including LinkedIn and email",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-01-22",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:10:44Z"
+  },
+  {
+    "_id": "8304ba80-9a7f-4439-a7c2-58d56be6f3f6",
+    "title": "Clean and restructure Attio CRM for deal tracking and reporting",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-01-15",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:10:44Z"
+  },
+  {
+    "_id": "fecfbb52-9af8-4100-85c4-2895de7981e5",
+    "title": "Finalize and implement Clay enrichment and data pipeline for 300,000 MSK clinic contacts",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-01-15",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:10:43Z"
+  },
+  {
+    "_id": "e2b95518-07dd-47e8-b23c-71b8b61ee7d1",
+    "title": "Clean and Standardize Attio CRM Data & Implement Deal/Probability Calculators",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-01-17",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:08:31Z"
+  },
+  {
+    "_id": "25fabfff-7f74-4fd6-89c9-7aa8bbce7cc6",
+    "title": "Finalize and Enrich MSK Clinic Database in Clay",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-01-10",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-10T14:08:30Z"
+  },
+  {
+    "_id": "593116de-d390-4729-bd99-d3c1e1f56b2f",
+    "title": "Send Willy access to Attio CRM and list of integrated apps",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-12",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-10T08:59:28Z"
+  },
+  {
+    "_id": "4feee31c-f6e5-4fa7-8dcf-7cff9ce38534",
+    "title": "Provide requirements for Attio CRM data structure and workflows",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-12",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-10T08:59:28Z"
+  },
+  {
+    "_id": "0e1245b5-94bb-4591-bcd4-1de204a30519",
+    "title": "Schedule next 'Meet & Build' session and add to calendar",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-16",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-09T08:56:19Z"
+  },
+  {
+    "_id": "53ceca4f-7335-467a-a116-48e5f2332277",
+    "title": "Review and update 'Meet & Build' session blurb for Clay community",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-16",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-09T08:56:19Z"
+  },
+  {
+    "_id": "87f0c6fc-4510-4457-81e2-f6c018288610",
+    "title": "Monitor Clay trial account status",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-13",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-09T08:19:48Z"
+  },
+  {
+    "_id": "a0289a10-18e4-4ea9-b97f-e497f765883b",
+    "title": "Complete and test the take-home exercise for Clay",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-13",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-09T08:19:48Z"
+  },
+  {
+    "_id": "ec9e9a2c-2151-41f2-9dbf-2c1e72296126",
+    "title": "Audit and map CRM custom objects and fields for integration",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-13",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-05T15:15:36Z"
+  },
+  {
+    "_id": "53ac5dce-3240-45f3-81bf-783eaeea8304",
+    "title": "Compile and share prioritized action list for Flagler Health setup",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-06",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "_created_at": "2025-12-05T15:15:36Z"
+  },
+  {
+    "_id": "5d6fc173-b7dc-4344-b8a8-62a187fc0a05",
+    "title": "Begin enrichment and workflow setup for 15 Texas utilities",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-18",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T14:16:32Z"
+  },
+  {
+    "_id": "2acb81ac-7968-4226-93f6-cfc7a65335c9",
+    "title": "Set up shared drive for document and data exchange",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-11",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T14:16:32Z"
+  },
+  {
+    "_id": "ab5fa3bb-31ec-4712-afb9-df39bdbe1254",
+    "title": "Share recommended resources for GTM engineering skill development with Amy",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-11",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T12:32:17Z"
+  },
+  {
+    "_id": "9295f17e-2252-4351-899c-31a3a2ea2441",
+    "title": "Join Regis Slack and Clay workspace for project collaboration",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-05",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-12-04T11:39:09Z"
+  },
+  {
+    "_id": "511d7d53-5027-4013-acda-b71b96fbf598",
+    "title": "Begin company-level data enrichment in HubSpot",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-06",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-12-04T11:39:08Z"
+  },
+  {
+    "_id": "dfa5b4c3-c178-4a89-9d99-452fd5d9f3ef",
+    "title": "Assist in building workflow inside Matt's Clay subscription",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-18",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T10:00:49Z"
+  },
+  {
+    "_id": "827bdb26-2fad-42dc-b7e9-3b485b95eb2f",
+    "title": "Create flowcharts for each phase of the outbound sales automation workflow",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-11",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T10:00:49Z"
+  },
+  {
+    "_id": "0302ca88-1919-4318-bb7f-73ae585379ef",
+    "title": "Plan and launch Clay Club East Bay chapter event for Q1",
+    "status": "To Do",
+    "priority": "High",
+    "due_date": "2026-01-31",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T09:41:43Z"
+  },
+  {
+    "_id": "4cf1b25e-50de-4e66-8449-f38960d7108e",
+    "title": "Review Clay Club host materials and coordinate with Kellen for co-hosting",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-12-18",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-12-04T09:41:43Z"
+  },
+  {
+    "_id": "39ba72a4-08f0-4200-97a8-0f6df15f9ecd",
+    "title": "Share travel plans and preferred start date with Clay team",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-24",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T12:27:27Z"
+  },
+  {
+    "_id": "0d50eba0-0638-4fd1-953d-c1eba5822ee1",
+    "title": "Prepare for customized take-home assignment for Clay Solutions Engineer interview",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-24",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T12:27:27Z"
+  },
+  {
+    "_id": "ef82e14b-6c78-4c61-b6b0-34ba4626df2d",
+    "title": "Suggest improvements to API integration training in Clay cohorts",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-12-05",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T11:03:51Z"
+  },
+  {
+    "_id": "40de3237-2665-4904-8ca4-a986aad840c0",
+    "title": "Propose capstone project assignments for cohort programs",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-28",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T11:03:51Z"
+  },
+  {
+    "_id": "30c7e180-fbc7-4a39-b4d7-1ca448240857",
+    "title": "Prepare sample workflow for list building and enrichment using Clay/Apollo",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-27",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T09:50:08Z"
+  },
+  {
+    "_id": "147df7d6-1964-40b1-842a-78016feffb81",
+    "title": "Draft process diagram and one-pager for Texas utility co-op outbound automation project",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-27",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T09:50:08Z"
+  },
+  {
+    "_id": "2780e086-4190-4d04-9153-ea3b5523eee4",
+    "title": "Revise and send consulting services agreement to Holly",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-21",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-21T08:48:03Z"
+  },
+  {
+    "_id": "63c6efb8-9423-4e9b-80a0-c68545bb2b26",
+    "title": "Coordinate transfer of short.io (or approved URL shortener) ownership to Sayers",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-25",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-20T12:11:54Z"
+  },
+  {
+    "_id": "ac7eeea1-e004-495a-8dfc-56059df95103",
+    "title": "Finalize and send Clay workflow technical documentation to Adam",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-20",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-20T12:11:53Z"
+  },
+  {
+    "_id": "4d357412-3100-458c-b9d5-3fd7ac775ac1",
+    "title": "Confirm location flexibility for Solutions Engineer role with Karen",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-21",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-17T11:29:35Z"
+  },
+  {
+    "_id": "9af54049-a91e-4eb4-b8dc-0536e47cc742",
+    "title": "Coordinate interview scheduling with Karen, considering upcoming travel plans",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-21",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-17T11:29:35Z"
+  },
+  {
+    "_id": "ca323500-6137-4bad-8c9c-b675784fc8dc",
+    "title": "Draft and share enrichment framework for HubSpot data project",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-18",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-14T11:40:09Z"
+  },
+  {
+    "_id": "0f67a960-95a4-4288-a7a2-e4514f061ee8",
+    "title": "Create technical documentation for Clay workflow and short.io integration",
+    "status": "To Do",
+    "priority": "Medium",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-14T10:39:42Z"
+  },
+  {
+    "_id": "4cc000c0-abbd-41d6-83f4-5c1c9b784ec0",
+    "title": "Transfer short.io URL shortener ownership to client domain",
+    "status": "To Do",
+    "priority": "High",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-14T10:39:42Z"
+  },
+  {
+    "_id": "c20696d8-8938-4c5b-a4eb-fbd762873036",
+    "title": "Design initial custom GPT workflow for regulatory document analysis",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-14",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-13T11:59:37Z"
+  },
+  {
+    "_id": "65a3d66b-fce1-4da9-b443-8dc61439558d",
+    "title": "Draft simplified framework for signal identification and outreach automation (wildfire mitigation use case)",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-14",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-13T11:59:37Z"
+  },
+  {
+    "_id": "92761a3a-2c19-465a-8950-96ff60a93f94",
+    "title": "Test exporting email content to Google Docs for cell size limitations",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-17",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-13T10:38:46Z"
+  },
+  {
+    "_id": "38d5b8e2-e07c-4d5f-97d3-0ea08965233a",
+    "title": "Provide sample output of revised Clay workflow via Slack for Adam's approval",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-14",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-13T10:38:44Z"
+  },
+  {
+    "_id": "bdcdc0fc-7e80-4e08-8b54-f42ecf35bacd",
+    "title": "Explore AI/web scraping for permitting requirements in new markets",
+    "status": "To Do",
+    "priority": "Low",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-12T10:06:52Z"
+  },
+  {
+    "_id": "25453ecb-550d-4113-a76a-cbd43db18974",
+    "title": "Review CRM setup after initial build",
+    "status": "To Do",
+    "priority": "Medium",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-12T10:06:49Z"
+  },
+  {
+    "_id": "3cfbf01f-9dc3-45c2-85c5-10b0f6c1c0e4",
+    "title": "Continue enrichment of unmatched contacts using Brave API and Clay credits",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-14",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-11-06T12:12:04Z"
+  },
+  {
+    "_id": "0353bb89-cf16-4182-860c-f6f8ff56dd3b",
+    "title": "Provide cleaned contact list (5,000+ employees) in shared workbook",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-07",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-11-06T12:12:03Z"
+  },
+  {
+    "_id": "e1e81963-7cc3-4e99-ad28-8e571a14d8cb",
+    "title": "Optimize and test summary and 'why it matters' messaging for email workflow",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-08",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-04T10:28:51Z"
+  },
+  {
+    "_id": "8d18535d-d37f-4499-8fd5-2f6c7f95a250",
+    "title": "Send finalized AI prompt for Microsoft Copilot to Adam",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-05",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-04T10:28:51Z"
+  },
+  {
+    "_id": "ab8b24ed-747b-416f-b3dc-47ca31eee6b4",
+    "title": "Prepare feedback and use Ravi's platform for upcoming outreach project",
+    "status": "To Do",
+    "priority": "Medium",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-03T11:51:51Z"
+  },
+  {
+    "_id": "5febb7f2-634e-4135-b71d-606dec332038",
+    "title": "Share vendor list with Ravi and test enrichment tool",
+    "status": "To Do",
+    "priority": "High",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-11-03T11:51:50Z"
+  },
+  {
+    "_id": "bed2bf72-2da9-406c-ae69-178a3067bf6c",
+    "title": "Formalize contractor setup and project scope with Regis Company",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-10",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-11-03T10:57:54Z"
+  },
+  {
+    "_id": "83980fd1-bfd9-4bc3-9af8-0072de15e6ae",
+    "title": "Prepare and enrich combined DevLearn and ELE lists for LinkedIn outreach",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-11-05",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-11-03T10:57:54Z"
+  },
+  {
+    "_id": "890db9d2-55c2-4a1c-acdd-c3dea4d3375f",
+    "title": "Create and test the 'JSON vendor update' text field and automate email generation",
+    "status": "To Do",
+    "priority": "High",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-30T10:24:00Z"
+  },
+  {
+    "_id": "88c0b87c-9c48-4f58-9ce9-df9c8c07facf",
+    "title": "Consolidate client and vendor data into a single workbook with separate sheets",
+    "status": "To Do",
+    "priority": "High",
+    "due_date": null,
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-30T10:23:59Z"
+  },
+  {
+    "_id": "dfa27fb7-2d85-4096-8fbb-5dacbf05a3cb",
+    "title": "Propose experimental LinkedIn outreach campaign for DevLearn",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-11-03",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-10-27T13:56:37Z"
+  },
+  {
+    "_id": "9e9f35cc-5758-489a-90ba-076cfd819d92",
+    "title": "Share DevLearn attendee company list with Regis team",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-10-29",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-10-27T13:56:36Z"
+  },
+  {
+    "_id": "ca5f85d9-d276-479c-b56d-81f114199b36",
+    "title": "Review CRO's wish list and relevant articles to inform signal selection",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-10-31",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "4df2c45f-28c0-4c59-aec4-a1a7a0ede8e4",
+    "_created_at": "2025-10-27T12:03:12Z"
+  },
+  {
+    "_id": "6b3f84a3-4ba4-40bb-99ce-b109b31f91f3",
+    "title": "Provide architecture/flow diagram for signal capture",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-10-30",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "4df2c45f-28c0-4c59-aec4-a1a7a0ede8e4",
+    "_created_at": "2025-10-27T12:03:10Z"
+  },
+  {
+    "_id": "0cc60bb0-da99-40f2-9156-c2e9f27ece2e",
+    "title": "Provide update to Adam after workflow testing",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-10-24",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-24T13:18:18Z"
+  },
+  {
+    "_id": "34ceba57-dfa3-46bc-901d-97a919ce9dde",
+    "title": "Experiment with consolidating news updates into a single string per client",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-10-24",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-24T13:18:18Z"
+  },
+  {
+    "_id": "f2d5565d-462a-4cd2-a4a7-6d6114934bc5",
+    "title": "Research LinkedIn and Triggerify options for identifying DevLearn attendees",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-10-28",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-10-24T11:52:09Z"
+  },
+  {
+    "_id": "1217ab67-6851-43c4-b950-6fb004f622d4",
+    "title": "Prepare and enrich DevLearn attendee list for outreach",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-10-28",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "_created_at": "2025-10-24T11:52:08Z"
+  },
+  {
+    "_id": "5d6198c8-a178-4b68-9878-e0b4647eb1c1",
+    "title": "Contract email",
+    "status": "Done",
+    "priority": null,
+    "due_date": "2025-10-27",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": "5bd392ca-e0f9-4df8-9f5f-df7d96bd1a01",
+    "_created_at": "2025-10-23T16:27:29Z"
+  },
+  {
+    "_id": "617c329b-8372-40f0-9b94-bcb751e5e179",
+    "title": "Download the Mac desktop app",
+    "status": "Canceled",
+    "priority": "Low",
+    "due_date": "2025-10-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-23T16:24:42Z"
+  },
+  {
+    "_id": "f357dc68-0dae-4128-b5c0-e76cb6cc78f6",
+    "title": "Use search with Ctrl+K or Command+K",
+    "status": "Canceled",
+    "priority": "Low",
+    "due_date": "2025-10-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-23T16:24:42Z"
+  },
+  {
+    "_id": "9c841120-f39e-43e6-b64a-eac5c9d6de96",
+    "title": "Invite your team members",
+    "status": "Canceled",
+    "priority": "High",
+    "due_date": "2025-10-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-23T16:24:42Z"
+  },
+  {
+    "_id": "26e0122b-4cbb-48b6-8939-e02d57e88dd3",
+    "title": "Connect your email account",
+    "status": "Done",
+    "priority": "High",
+    "due_date": "2025-10-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-23T16:24:42Z"
+  },
+  {
+    "_id": "c3734054-7c07-4a03-bcda-0e18b20875b7",
+    "title": "Create a deal",
+    "status": "Canceled",
+    "priority": "Medium",
+    "due_date": "2025-10-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-23T16:24:42Z"
+  },
+  {
+    "_id": "ec3d1406-7605-42e7-a9b4-af00a35ee213",
+    "title": "Enable call recordings",
+    "status": "Done",
+    "priority": "Medium",
+    "due_date": "2025-10-23",
+    "assignee_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "deal_id": null,
+    "_created_at": "2025-10-23T16:24:42Z"
+  }
+]

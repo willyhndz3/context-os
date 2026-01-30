@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "fd2581a9-db1a-4c7f-b59b-bbd3519dcfb3",
+    "name": "Insightscompany",
+    "stage": "Lead",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "company_id": "80a82c06-d05c-4be2-b277-448f295c8f0a",
+    "_created_at": "2026-01-22T17:24:16Z",
+    "_updated_at": "2026-01-28T10:16:56Z"
+  },
+  {
+    "_id": "5fb2b45c-aa46-49f7-87e8-514fba987881",
+    "name": "AssetWatch",
+    "stage": "Lead",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "company_id": "8bc2e168-7ebf-4719-a86d-a266b54896e0",
+    "_created_at": "2026-01-20T16:01:21Z",
+    "_updated_at": "2026-01-22T22:17:53Z"
+  },
+  {
+    "_id": "b43a406e-cd20-4d64-8b3b-c1d3fe697d0a",
+    "name": "SNAPS",
+    "stage": "Lead",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "company_id": "56525d92-1e3b-4b65-9f2b-b3526c2ab9fd",
+    "_created_at": "2026-01-20T16:01:16Z",
+    "_updated_at": "2026-01-20T16:01:22Z"
+  },
+  {
+    "_id": "843dd0fb-b82d-4069-8819-8ad86cc31db9",
+    "name": "eSmart Systems",
+    "stage": "Won",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "amount": 5000,
+    "close_date": "2026-01-08",
+    "company_id": "aa63df64-2a1c-4779-a8aa-a74414fcd647",
+    "_created_at": "2026-01-08T13:25:24Z",
+    "_updated_at": "2026-01-22T21:47:36Z"
+  },
+  {
+    "_id": "66ad3be2-144e-4d3c-8789-32c775dfdcf9",
+    "name": "Flagler Health",
+    "stage": "Won",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "amount": 3750,
+    "company_id": "1ea0e774-b58a-4ed2-939c-630ec7026a08",
+    "_created_at": "2025-12-05T11:26:52Z",
+    "_updated_at": "2026-01-22T21:47:37Z"
+  },
+  {
+    "_id": "4df2c45f-28c0-4c59-aec4-a1a7a0ede8e4",
+    "name": "Primerli",
+    "stage": "Lost",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "company_id": "d1296e82-a1cc-4a1f-bfc0-a8ea1978d1b6",
+    "_created_at": "2025-10-24T05:37:28Z",
+    "_updated_at": "2025-12-05T11:27:19Z"
+  },
+  {
+    "_id": "208d9030-a0af-451e-9dda-7244e4235290",
+    "name": "Uplight",
+    "stage": "Lost",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "amount": 1000,
+    "close_date": "2025-10-31",
+    "company_id": "14c5d1bd-f8b2-4049-9ec8-fe5d49e9a599",
+    "_created_at": "2025-10-23T16:30:05Z",
+    "_updated_at": "2025-12-05T11:27:12Z"
+  },
+  {
+    "_id": "c71eec18-8f07-4163-860b-d1e37d5e9700",
+    "name": "The Regis Company",
+    "stage": "Won",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "amount": 1000,
+    "close_date": "2025-10-27",
+    "company_id": "55ecbc6b-0e7a-4144-9068-3e97cdead71e",
+    "_created_at": "2025-10-23T16:27:57Z",
+    "_updated_at": "2026-01-22T21:47:37Z"
+  },
+  {
+    "_id": "5bd392ca-e0f9-4df8-9f5f-df7d96bd1a01",
+    "name": "Truce",
+    "stage": "Lost",
+    "owner_id": "user_01K89P2M48TQ7KEPCG6F9W79SC",
+    "amount": 6000,
+    "close_date": "2025-10-31",
+    "company_id": "7747e3e3-09a8-4b0a-8f14-b70a90b1d86d",
+    "_created_at": "2025-10-23T16:26:20Z",
+    "_updated_at": "2025-12-05T11:27:16Z"
+  }
+]
