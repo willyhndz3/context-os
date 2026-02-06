@@ -15,6 +15,9 @@ class KnowledgeBase:
         else:
             url = f"https://x-access-token:{token}@github.com/{repo}.git"
             subprocess.run(["git", "clone", url, dest], check=True, capture_output=True)
+        # Configure git identity for commits from the bot
+        subprocess.run(["git", "-C", dest, "config", "user.name", "GTM Context Bot"], capture_output=True)
+        subprocess.run(["git", "-C", dest, "config", "user.email", "bot@gtm-context-os.local"], capture_output=True)
         return cls(dest)
 
     def pull(self):
