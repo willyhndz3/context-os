@@ -1,0 +1,70 @@
+# GTM Knowledge Graph Ontology
+# Defines how GTM concepts relate
+
+version: 1.0.0
+last_updated: 2026-01-28
+
+relationship_types:
+
+  enables:
+    description: "A makes B possible (foundational)"
+    example: "[[unique-mechanism]] enables [[differentiation]]"
+
+  supports:
+    description: "A provides evidence for B"
+    example: "[[case-study-acme]] supports [[roi-messaging]]"
+
+  implements:
+    description: "A is practical execution of B"
+    example: "[[discovery-questions]] implements [[pain-based-selling]]"
+
+  counters:
+    description: "A responds to or neutralizes B"
+    example: "[[roi-calculator]] counters [[pricing-objection]]"
+
+  targets:
+    description: "A is designed for B (ICP relationship)"
+    example: "[[enterprise-messaging]] targets [[vp-sales-persona]]"
+
+  competes_with:
+    description: "A is an alternative to B"
+    example: "[[our-product]] competes_with [[competitor-x]]"
+
+  differentiates_from:
+    description: "A sets us apart from B"
+    example: "[[real-time-sync]] differentiates_from [[competitor-batch-process]]"
+
+  validates:
+    description: "A provides real-world proof of B"
+    example: "[[esmart-systems]] validates [[deep-research-agents]]"
+
+  informed_by:
+    description: "A's definition was shaped by B"
+    example: "[[pricing-objection]] informed_by [[insightscompany]]"
+
+  matches_icp:
+    description: "A fits the profile defined by B"
+    example: "[[wso2]] matches_icp [[enterprise-developer-tools]]"
+
+linking_requirements:
+  all_nodes:
+    minimum_links: 3
+    description: "Every node should link to 3+ other nodes"
+
+  emergent_nodes:
+    minimum_links: 1
+    description: "New concepts can start with 1 link"
+
+# Attribution requirements
+quality_standards:
+  attribution_required: true
+  formats:
+    verified: "[VERIFIED: source:line]"
+    inferred: "[INFERRED: logic from sources]"
+    unverifiable: "[UNVERIFIABLE]"
+
+# GTM-specific quality rules
+gtm_rules:
+  messaging_requires_proof_point: true
+  objection_requires_counter: true
+  icp_requires_pain_points: true

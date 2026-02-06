@@ -1,0 +1,79 @@
+# GTM Knowledge Graph Taxonomy
+# Blessed tags for go-to-market context
+
+version: 1.0.0
+last_updated: 2026-01-28
+
+domains:
+  blessed:
+    - icp               # Ideal Customer Profile
+    - messaging         # Value props, narratives
+    - positioning       # Market differentiation
+    - competitive       # Competitor intelligence
+    - objections        # Sales objections
+    - emergent          # New concepts not yet validated
+
+node_types:
+  blessed:
+    - concept           # Core ideas
+    - pattern           # Repeatable approaches
+    - case-study        # Real customer examples
+    - framework         # Structured methodologies
+    - battlecard        # Competitive comparison
+    - objection-handler # Objection response
+    - account           # Client/prospect record
+
+status_values:
+  blessed:
+    - emergent          # Identified but not validated
+    - validated         # Proven in 1+ conversations
+    - canonical         # Proven and referenced 2+ times
+
+# GTM-specific tags - add after 3+ nodes show pattern
+topic_library:
+  icp:
+    - persona
+    - pain-point
+    - buying-trigger
+    - decision-criteria
+    - buyer
+    - enterprise
+  messaging:
+    - value-prop
+    - proof-point
+    - tagline
+    - narrative
+    - service
+    - use-case
+  positioning:
+    - differentiation
+    - market-category
+    - unique-mechanism
+  competitive:
+    - competitor
+    - weakness
+    - strength
+    - win-theme
+  objections:
+    - pricing
+    - timing
+    - status-quo
+    - competitor-preference
+    - sales
+    - followup
+  methodology:
+    - gtm-engineering
+    - ai-research
+    - strategy
+  accounts:
+    - prospect
+    - client
+    - won
+    - lost
+    - active
+
+# Quality thresholds
+quality_thresholds:
+  tag_sprawl_warning: 20
+  minimum_topic_count: 3
+  maximum_topic_count: 7
