@@ -4,8 +4,10 @@ from pathlib import Path
 
 
 class KnowledgeBase:
-    def __init__(self, path: str):
+    def __init__(self, path: str, token: str = "", repo: str = ""):
         self.path = Path(path)
+        self.token = token
+        self.repo = repo
 
     @classmethod
     def clone_from_github(cls, repo: str, token: str, dest: str) -> "KnowledgeBase":
@@ -18,7 +20,10 @@ class KnowledgeBase:
         # Configure git identity for commits from the bot
         subprocess.run(["git", "-C", dest, "config", "user.name", "GTM Context Bot"], capture_output=True)
         subprocess.run(["git", "-C", dest, "config", "user.email", "bot@gtm-context-os.local"], capture_output=True)
-        return cls(dest)
+        # Ensure remote URL has auth token for pushing
+        auth_url = f"https://x-access-token:{token}@github.com/{repo}.git"
+        subprocess.run(["git", "-C", dest, "remote", "set-url", "origin", auth_url], capture_output=True)
+        return cls(dest, token=token, repo=repo)
 
     def pull(self):
         """Pull latest changes from GitHub."""
