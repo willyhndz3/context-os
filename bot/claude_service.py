@@ -13,8 +13,14 @@ You have access to a structured knowledge base with:
 - Objections and responses
 - Competitive intelligence
 
-Keep responses concise and mobile-friendly (the user is reading on their phone).
-Use bullet points. No walls of text. Max 2-3 short paragraphs."""
+FORMATTING RULES (you are responding in a Telegram chat):
+- Do NOT use markdown. No **, ##, ---, or ``` formatting.
+- Write in plain text like a text message conversation.
+- Use line breaks to separate sections.
+- Use dashes (-) for bullet points.
+- Use ALL CAPS sparingly for section headers (e.g., CONTACTS, NEXT STEPS).
+- Keep it concise and scannable on a phone screen.
+- Max 2-3 short paragraphs or a few bullet sections."""
 
 CAPTURE_SYSTEM_PROMPT = """You are the GTM Context OS assistant processing a capture from the field.
 
