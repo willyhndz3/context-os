@@ -1,6 +1,9 @@
+import logging
 import os
 import subprocess
 from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 
 class KnowledgeBase:
@@ -44,10 +47,13 @@ class KnowledgeBase:
                 ["git", "-C", str(self.path), "commit", "-m", message],
                 check=True, capture_output=True
             )
-            subprocess.run(
+            push_result = subprocess.run(
                 ["git", "-C", str(self.path), "push"],
-                check=True, capture_output=True
+                capture_output=True
             )
+            if push_result.returncode != 0:
+                logger.error(f"Git push failed: {push_result.stderr.decode()}")
+                logger.error(f"Git push stdout: {push_result.stdout.decode()}")
 
     def list_accounts(self) -> list[str]:
         """List all account directory names."""
