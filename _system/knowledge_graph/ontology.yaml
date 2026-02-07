@@ -46,6 +46,10 @@ relationship_types:
     description: "A fits the profile defined by B"
     example: "[[wso2]] matches_icp [[enterprise-developer-tools]]"
 
+  partners_with:
+    description: "A has a formal partnership with B"
+    example: "[[the-gtm-factory]] partners_with [[clay]]"
+
 linking_requirements:
   all_nodes:
     minimum_links: 3

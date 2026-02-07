@@ -12,6 +12,7 @@ domains:
     - competitive       # Competitor intelligence
     - objections        # Sales objections
     - emergent          # New concepts not yet validated
+    - partners          # Vendor & technology partnerships
 
 node_types:
   blessed:
@@ -22,6 +23,7 @@ node_types:
     - battlecard        # Competitive comparison
     - objection-handler # Objection response
     - account           # Client/prospect record
+    - partner           # Vendor/technology partner
 
 status_values:
   blessed:
@@ -71,6 +73,13 @@ topic_library:
     - won
     - lost
     - active
+  partners:
+    - technology-partner
+    - channel-partner
+    - solutions-partner
+    - referral
+    - co-sell
+    - co-marketing
 
 # Quality thresholds
 quality_thresholds:

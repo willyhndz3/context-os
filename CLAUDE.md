@@ -31,6 +31,11 @@ gtm-context-os/
 │   │       └── [workflow-name].md
 │   └── _templates/
 │       └── account_template.md
+├── partners/                   # Vendor & technology partner relationships
+│   ├── [Partner Name]/
+│   │   └── partner.md          # Main partner file
+│   └── _templates/
+│       └── partner_template.md
 ├── knowledge_base/             # Cross-account concepts
 │   ├── icp/                    # Ideal Customer Profiles
 │   ├── messaging/              # Value props, taglines, narratives
